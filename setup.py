@@ -14,11 +14,9 @@
 # limitations under the License.
 #
 # ======================================================================
-"""M.L.E (Emily), Django implementation."""
+"""Learning Django's implementation."""
 
 from setuptools import find_packages, setup
-
-from mle_django import dev
 
 
 def use_readme() -> str:
@@ -31,13 +29,9 @@ with open('requirements.txt', 'r') as requirements:
   required_packages = [package.rstrip() for package in requirements]
 
 setup(
-  name=dev.PROJECT_NAME,
-  version=dev.PROJECT_VERSION,
-  url=dev.PROJECT_LINK,
-  author=dev.AUTHOR,
-  author_email=dev.AUTHOR_EMAIL,
-  maintainer=dev.AUTHOR,
-  maintainer_email=dev.AUTHOR,
+  name='mle_django',
+  version='0.1 (beta)',
+  author='XA',
   classifiers=[
     'Development Status :: 1 - Planning',
     'Development Status :: 2 - Pre-Alpha',
@@ -51,7 +45,6 @@ setup(
     'Topic :: Database',
     'Topic :: Internet :: WWW/HTTP :: WSGI',
     ],
-  license=dev.PROJECT_LICENSE,
   description=__doc__,
   long_description=use_readme(),
   long_description_content_type='text/markdown',
