@@ -9,8 +9,7 @@ class MonitoredApps(models.Model):
   app_started = models.DateTimeField()
 
   def __str__(self):
-    return [self.app_name,
-            self.app_exe]
+    return self.app_name
 
   class Meta(object):
     verbose_name_plural = 'Monitored Applications'
