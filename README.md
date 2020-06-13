@@ -1,5 +1,5 @@
 <p align="left">
-<strong>M.L.E (Emily)</strong>, with Django implementation.</a><br>It's all about being alpha!</a>
+<strong>X.AI</strong>, with Django implementation.</a><br>It's all about being alpha!</a>
 </p>
 
 ## My tips to get started with Django
